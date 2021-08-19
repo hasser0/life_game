@@ -1,5 +1,4 @@
 from itertools import product
-from typing import MutableSet
 
 def get_neighbours(n_rows, n_cols):
     neighbours = [[0 for _ in range(n_cols)] for _ in range(n_rows)]
